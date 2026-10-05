@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/desktop/image-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.ovr-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.logo {
+    padding-left: 100px;
+} 
+
+.link-div {
+    width: 400px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.txt-div {
+    padding-left: 138px;
+    padding-top: 70px;
+    
+}
+
+.txt-div button {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 50px;
+    width: 490px;
+    padding: 20px;
+    color: white;
+    text-align: start;
+}
+
+
+
+
+.txt2 {
+    color: white;
+    font-size: 60px;
+}
+
+.hideOnMobile {
+    display: none;
+}
+
+    ul li {
+    list-style: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+
+
+
+.main-body {
+    margin-bottom: 150px
+}
+
+
+.overlay1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 150px;
+    padding-left: 140px;
+}
+
+.vr-img {
+    position: relative;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    top: 915px;
+    left: 715px;
+    font-weight: 100;
+}
+
+.first-txt {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.sp0 {
+    font-family: 'Alata', sans-serif;
+    padding-top: 20px;
+    font-size: 15px;
+    color: hsl(0, 0%, 55%);
+    line-height: 1.5;
+}
+
+.ovr1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    height: 90px;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .create {
+    font-size: 40px;
+    padding-left: 140px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    width: 250%;
+}
+
+.see {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: black;
+    border: 2px solid black;
+    width: 85%;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+
+.card-item {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-item h3 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: uppercase;
+  z-index: 2;
+  transition: color 0.3s ease;
+}
+
+.our {
+    display: none;
+}
+
+/* .earth {
+    position: absolute;
+    left: 220px;
+    bottom: -1620px;
+}
+
+.arcade {   
+    position: absolute;
+    left: 500px;
+    bottom: -1620px;
+}
+
+.soccer {
+    position: absolute;
+    left: 780px;
+    bottom: -1620px;
+}
+
+.grid {
+    position: absolute;
+    left: 1050px;
+    bottom: -1620px;
+}
+
+.from {
+    position: absolute;
+    left: 220px;
+    bottom: -2100px;
+}
+
+.pocket {
+    position: absolute;
+    left: 500px;
+    bottom: -2100px;
+}
+
+.curiosity {
+    position: absolute;
+    left: 780px;
+    bottom: -2100px;
+}
+
+.fisheye {
+    position: absolute;
+    left: 1050px;
+    bottom: -2100px;
+} */
+
+footer {
+    /* margin-top: 150px; */
+    background-color: hsl(0, 0%, 0%);
+    /* padding: 40px; */
+}
+
+.footer-left {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 30px;
+}
+/* .footer-logo {
+    width: 15%;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 70%;
+}
+
+.app-icon {
+    display: flex;
+} */
+
+
+
+
+
+@media  screen and (max-width: 375px) {
+header {
+    width: 385px;
+}
+
+    
+.link {
+     display: none;
+    }
+
+.lead {
+    left: 10px;
+    margin-top: -130px;
+    }
+
+.overlay1 {
+    padding-top: 100px;
+    padding-left: 45px;
+}
+
+.vr-img {
+    width: 300px;
+}
+
+.our {
+    padding-top: 490px;
+    text-align: center;
+    display: block;
+}
+
+.creation-section {
+    display: none;
+}
+
+
+.txt-div {
+    padding-left: 40px;
+    padding-top: -370px;
+    
+}
+
+.txt-div button {
+    font-size: 28px;
+    width: 290px;
+    padding: 20px;
+    color: white;
+    text-align: start;
+}
+
+
+.logo {
+    padding-left: 10px;
+} 
+
+.mobile-creation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.card-item {
+    height: 170px;
+    padding-left: 20px;
+}
+
+.card-item img {
+    width: 330px;
+}
+
+.see-div {
+    background-color: white;
+    border: 2px solid;
+    text-transform: uppercase;
+    margin-top: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+}
+
+
+@media  screen and (max-width: 320px) {
+.logo {
+    padding-left: 0;
+}
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+
+
+
+}
