@@ -181,6 +181,7 @@ header {
 .card-item h3 {
   position: absolute;
   bottom: 30px;
+  font-size: 300px;
   left: 30px;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
